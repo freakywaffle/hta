@@ -23,7 +23,7 @@ public class JDBCMain {
 				Date reg_date = rs.getDate("reg_date");
 				int grade = rs.getInt("grade");
 				
-				System.out.println("난 선생이구:"+id+","+reg_date+","+grade+">>>>");
+				System.out.println("난 학생이에요:"+id+","+reg_date+","+grade+">>>>");
 			}
 			
 			rs.close();
