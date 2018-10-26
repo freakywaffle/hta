@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thread_p.TranslateController2">
+   <children>
+      <Arc fx:id="rotatearc" fill="DODGERBLUE" layoutX="59.0" layoutY="60.0" length="270.0" radiusX="30.0" radiusY="30.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="scalearc" fill="DODGERBLUE" layoutX="163.0" layoutY="60.0" length="270.0" radiusX="30.0" radiusY="30.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="fillarc" fill="DODGERBLUE" layoutX="280.0" layoutY="60.0" length="270.0" radiusX="30.0" radiusY="30.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="strokearc" fill="#1f93ff00" layoutX="387.0" layoutY="60.0" length="270.0" radiusX="30.0" radiusY="30.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" type="ROUND" />
+      <Arc fx:id="fadearc" fill="DODGERBLUE" layoutX="494.0" layoutY="60.0" length="270.0" radiusX="30.0" radiusY="30.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Button fx:id="rotate" layoutX="29.0" layoutY="444.0" mnemonicParsing="false" text="rotate" />
+      <Button fx:id="scale" layoutX="136.0" layoutY="443.0" mnemonicParsing="false" text="scale" />
+      <Button fx:id="fill" layoutX="245.0" layoutY="443.0" mnemonicParsing="false" text="fill" />
+      <Button fx:id="stroke" layoutX="343.0" layoutY="444.0" mnemonicParsing="false" text="stroke" />
+      <Button fx:id="fade" layoutX="443.0" layoutY="443.0" mnemonicParsing="false" text="fade" />
+   </children>
+</AnchorPane>

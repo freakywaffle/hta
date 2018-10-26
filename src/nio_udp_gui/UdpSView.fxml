@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nio_udp_gui.UdpViewController">
+   <top>
+      <TextField fx:id="ip_tf" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <TextField fx:id="msg_tf" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

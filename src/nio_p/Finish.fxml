@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="ancFinish" prefHeight="850.0" prefWidth="600.0" style="-fx-background-color: #FFADFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nio_p.ExamFinishController">
+   <children>
+      <Pane layoutX="125.0" layoutY="49.0" prefHeight="409.0" prefWidth="350.0">
+         <children>
+            <Label layoutX="70.0" layoutY="39.0" text="반" />
+            <Label fx:id="nol" layoutX="150.0" layoutY="39.0" />
+            <Label layoutX="70.0" layoutY="97.0" text="이름" />
+            <Label fx:id="namel" layoutX="150.0" layoutY="97.0" />
+            <Label layoutX="70.0" layoutY="148.0" text="국어" />
+            <Label fx:id="korl" layoutX="150.0" layoutY="148.0" />
+            <Label layoutX="70.0" layoutY="197.0" text="영어" />
+            <Label fx:id="engl" layoutX="150.0" layoutY="197.0" />
+            <Label layoutX="70.0" layoutY="239.0" text="수학" />
+            <Label fx:id="matl" layoutX="150.0" layoutY="239.0" />
+            <Label layoutX="70.0" layoutY="281.0" text="합계" />
+            <Label layoutX="70.0" layoutY="329.0" text="평균" />
+            <Label fx:id="suml" layoutX="150.0" layoutY="281.0" />
+            <Label fx:id="avgl" layoutX="150.0" layoutY="329.0" />
+            <Label layoutX="150.0" layoutY="14.0" text="성적표" />
+         </children>
+      </Pane>
+      <Button fx:id="print" onAction="#writeResult" layoutX="380.0" layoutY="458.0" mnemonicParsing="false" text="출력" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="ancKor" prefHeight="900.0" prefWidth="600.0" style="-fx-background-color: #FFFFD2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nio_p.ExamKorController">
+   <children>
+      <Pane layoutX="30.0" layoutY="46.0" prefHeight="149.0" prefWidth="250.0">
+         <children>
+            <TextField fx:id="aa1" layoutX="56.0" layoutY="120.0" />
+            <Label fx:id="qq1" layoutX="56.0" layoutY="57.0" prefHeight="37.0" prefWidth="137.0" />
+         </children></Pane>
+      <Pane layoutX="30.0" layoutY="241.0" prefHeight="149.0" prefWidth="250.0">
+         <children>
+            <TextField fx:id="aa2" layoutX="56.0" layoutY="120.0" />
+            <Label fx:id="qq2" layoutX="56.0" layoutY="57.0" prefHeight="37.0" prefWidth="137.0" />
+         </children></Pane>
+      <Pane layoutX="30.0" layoutY="436.0" prefHeight="149.0" prefWidth="250.0">
+         <children>
+            <Label fx:id="qq3" layoutX="56.0" layoutY="57.0" prefHeight="37.0" prefWidth="137.0" />
+            <TextField fx:id="aa3" layoutX="56.0" layoutY="120.0" />
+         </children></Pane>
+      <Pane layoutX="30.0" layoutY="631.0" prefHeight="149.0" prefWidth="250.0">
+         <children>
+            <TextField fx:id="aa4" layoutX="56.0" layoutY="120.0" />
+            <Label fx:id="qq4" layoutX="56.0" layoutY="57.0" prefHeight="37.0" prefWidth="137.0" />
+         </children></Pane>
+      <Pane layoutX="310.0" layoutY="45.0" prefHeight="149.0" prefWidth="250.0">
+         <children>
+            <TextField fx:id="aa5" layoutX="56.0" layoutY="120.0" />
+            <Label fx:id="qq5" layoutX="56.0" layoutY="57.0" prefHeight="37.0" prefWidth="137.0" />
+         </children></Pane>
+      <Pane layoutX="310.0" layoutY="241.0" prefHeight="149.0" prefWidth="250.0">
+         <children>
+            <TextField fx:id="aa6" layoutX="56.0" layoutY="120.0" />
+            <Label fx:id="qq6" layoutX="56.0" layoutY="57.0" prefHeight="37.0" prefWidth="137.0" />
+         </children></Pane>
+      <Pane layoutX="310.0" layoutY="436.0" prefHeight="149.0" prefWidth="250.0">
+         <children>
+            <TextField fx:id="aa7" layoutX="56.0" layoutY="120.0" />
+            <Label fx:id="qq7" layoutX="56.0" layoutY="57.0" prefHeight="37.0" prefWidth="137.0" />
+         </children></Pane>
+      <Pane layoutX="310.0" layoutY="631.0" prefHeight="149.0" prefWidth="250.0">
+         <children>
+            <TextField fx:id="aa8" layoutX="56.0" layoutY="120.0" />
+            <Label fx:id="qq8" layoutX="56.0" layoutY="57.0" prefHeight="37.0" prefWidth="137.0" />
+         </children></Pane>
+      <Button fx:id="engStart" layoutX="265.0" layoutY="799.0" mnemonicParsing="false" onAction="#startEng" prefHeight="37.0" prefWidth="70.0" text="영어 시작" />
+      <Label fx:id="timer" layoutX="71.0" layoutY="799.0" prefHeight="37.0" prefWidth="113.0" text="0" />
+      <Label layoutX="265.0" layoutY="14.0" text="국어">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

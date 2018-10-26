@@ -1,0 +1,24 @@
+#hbox1{
+	-fx-background-color: #66FFFF; 
+	-fx-border-radius: 10; 
+	-fx-border-insets: 5; 
+	-fx-border-color: #ff0000;	
+}
+#hbox2{
+	-fx-background-color: linear-gradient(to right, #ff0000,#ffffff);
+}
+#hbox3{
+	-fx-background-image: url('file:ppp/neogul.jpg');
+}
+#btn1{
+	-fx-border-insets: 50; 
+	-fx-border-width: 200;
+}
+#btn3{
+	-fx-background-color: #FF0000; 
+	-fx-text-fill: #00ffff;
+}
+#vbox1{
+	-fx-background-color: #ffff00; 
+	-fx-background-image: url('file:ppp/testImage.jpg');
+}

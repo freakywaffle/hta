@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="ancMain" prefHeight="850.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nio_p.ExamController">
+   <children>
+      <Pane layoutX="58.0" layoutY="272.0" prefHeight="255.0" prefWidth="285.0">
+         <children>
+            <TextField fx:id="no_tf" layoutX="84.0" layoutY="65.0" />
+            <TextField fx:id="name_tf" layoutX="84.0" layoutY="130.0" />
+            <Label layoutX="25.0" layoutY="65.0" prefHeight="23.0" prefWidth="50.0" text="번호" />
+            <Label layoutX="25.0" layoutY="130.0" prefHeight="23.0" prefWidth="50.0" text="이름" />
+            <Button fx:id="start" layoutX="115.0" layoutY="198.0" mnemonicParsing="false" onAction="#startKor" text="시험시작" />
+         </children>
+      </Pane>
+      <Pane layoutX="72.0" layoutY="33.0" prefHeight="200.0" prefWidth="257.0">
+         <children>
+            <Label alignment="CENTER" layoutX="29.0" layoutY="25.0" prefHeight="150.0" prefWidth="200.0" text="TEST">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

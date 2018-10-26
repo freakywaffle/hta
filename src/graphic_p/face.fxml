@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="450.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic_p.MyFaceMain">
+   <center>
+      <Pane prefHeight="400.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="10.0" layoutX="217.0" layoutY="192.0" rotate="-5.0" stroke="BLACK" strokeType="INSIDE" width="52.0" />
+            <Arc fill="#ffedd0" layoutX="123.0" layoutY="224.0" length="270.0" radiusX="17.0" radiusY="33.0" startAngle="235.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+            <Arc fill="#ffedd0" layoutX="296.0" layoutY="224.0" length="270.0" radiusX="17.0" radiusY="33.0" startAngle="35.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+            <Ellipse fill="#ffedd0" layoutX="210.0" layoutY="212.0" radiusX="80.0" radiusY="87.0" stroke="BLACK" strokeType="INSIDE" />
+            <Arc layoutX="125.0" layoutY="182.0" length="15.0" radiusX="170.0" radiusY="113.0" startAngle="-15.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+            <Arc fill="#040d00" layoutX="210.0" layoutY="191.0" length="180.0" radiusX="85.0" radiusY="74.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+            <Ellipse fill="WHITE" layoutX="172.0" layoutY="212.0" radiusX="25.0" radiusY="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Ellipse fill="WHITE" layoutX="243.0" layoutY="211.0" radiusX="25.0" radiusY="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Ellipse layoutX="172.0" layoutY="212.0" radiusX="7.0" radiusY="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Ellipse layoutX="243.0" layoutY="211.0" radiusX="7.0" radiusY="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Ellipse fill="#f1dfc1" layoutX="210.0" layoutY="245.0" radiusX="16.0" radiusY="6.0" stroke="#ffedd0" strokeType="INSIDE" />
+            <Ellipse fill="#f1dfc1" layoutX="210.0" layoutY="239.0" radiusX="6.0" radiusY="15.0" stroke="#ffedd0" strokeType="INSIDE" />
+            <Arc fill="#ffedd0" layoutX="209.0" layoutY="273.0" length="270.0" radiusX="22.0" radiusY="9.0" startAngle="-42.5" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="10.0" layoutX="146.0" layoutY="192.0" rotate="5.0" stroke="BLACK" strokeType="INSIDE" width="52.0" />
+            <Ellipse fill="#ffffff00" layoutX="165.0" layoutY="212.0" radiusX="37.0" radiusY="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" />
+            <Ellipse fill="#ffffff00" layoutX="250.0" layoutY="212.0" radiusX="37.0" radiusY="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" />
+            <Line endX="15.0" layoutX="201.0" layoutY="217.0" strokeWidth="3.0" />
+            <Pane fx:id="pn2" layoutX="148.0" layoutY="197.0" prefHeight="29.0" prefWidth="47.0" visible="false">
+               <children>
+                  <Circle fill="RED" layoutX="24.0" layoutY="15.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle layoutX="24.0" layoutY="13.0" radius="1.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle layoutX="22.0" layoutY="17.0" radius="1.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle layoutX="27.0" layoutY="16.0" radius="1.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </Pane>
+            <Pane fx:id="pn1" layoutX="219.0" layoutY="196.0" prefHeight="29.0" prefWidth="47.0" visible="false">
+               <children>
+                  <Circle fill="RED" layoutX="24.0" layoutY="15.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle layoutX="24.0" layoutY="13.0" radius="1.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle layoutX="22.0" layoutY="17.0" radius="1.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle layoutX="27.0" layoutY="16.0" radius="1.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </center>
+   <top>
+      <Button fx:id="bt1" mnemonicParsing="false" text="사륜안!!!!!!!!" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>

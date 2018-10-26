@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layout_p.TradeController">
+   <left>
+      <ListView fx:id="list_l" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </BorderPane.margin></ListView>
+   </left>
+   <right>
+      <ListView fx:id="list_r" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </BorderPane.margin></ListView>
+   </right>
+   <top>
+      <Label text="Label" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <HBox prefHeight="30.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="right_bt" mnemonicParsing="false" prefHeight="30.0" text="&gt;&gt;&gt;">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="100.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="left_bt" mnemonicParsing="false" prefHeight="30.0" text="&lt;&lt;&lt;">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="200.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
